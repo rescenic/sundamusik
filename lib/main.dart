@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sundamusik/pages/home_page.dart';
+import 'package:sundamusik/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             seedColor: const Color.fromARGB(255, 86, 25, 192)),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
