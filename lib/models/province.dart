@@ -17,18 +17,20 @@ class Province {
 
 var bali = Province(
   id: 1,
-  nama: 'Bali',
-  ibuKota: 'Denpasar',
-  photo: 'https://',
+  nama: 'Jawa Barat',
+  ibuKota: 'Bandung',
+  photo:
+      'https://upload.wikimedia.org/wikipedia/commons/9/99/Coat_of_arms_of_West_Java.svg',
   laguDaerah: 'laguDaerah',
   lirikLaguDaerah: 'lirikLaguDaerah',
 );
 
 var sumatra = Province(
-  id: 1,
-  nama: 'Sumatera',
-  ibuKota: 'Denpasar',
-  photo: 'https://',
+  id: 2,
+  nama: 'Jawa Tengah',
+  ibuKota: 'Semarang',
+  photo:
+      'https://upload.wikimedia.org/wikipedia/commons/b/bd/Coat_of_arms_of_Central_Java.svg',
   laguDaerah: 'laguDaerah',
   lirikLaguDaerah: 'lirikLaguDaerah',
 );
@@ -36,67 +38,31 @@ var sumatra = Province(
 final laguDaerahList = [
   Province(
     id: 1,
-    nama: 'Kalimantan Selatan',
-    ibuKota: 'Banjarmasin',
+    nama: 'Jawa Barat',
+    ibuKota: 'Bandung',
     photo:
-        'https://asset.kompas.com/crops/l9nQmhff11jVd79wBP8AWeRPLgI=/16x0:1039x682/750x500/data/photo/2023/02/19/63f1ba31b332a.png',
-    laguDaerah: 'Ampar-Ampar Pisang',
+        'https://upload.wikimedia.org/wikipedia/commons/9/9e/INDONESIA_logo.png',
+    laguDaerah: 'Manuk Dadali',
     lirikLaguDaerah: '''
-Ampar ampar pisang
+Mesat ngapung luhur jauh di awang-awang
+Mébérkeun jangjangna bangun taya karingrang
+Sukuna ranggoas reujeung pamatukna ngeluk
+Ngepak mega bari hiberna tarik nyuruwuk
+Saha anu bisa nyusul kana tandangna
+Gandang jeung perténtang taya bandingannana
 
-Pisangku balum masak
+Dipikagimir dipikasérab ku sasama
+Taya karempan kasieun lébér wawanénna
 
-Masak bigi dihurung bari-bari
-
-Masak bigi dihurung bari-bari
-
-Manggalepak manggalepok
-
-Patah kayu bengkok
-
-Bengkok dimakan api
-
-apinya cang curupan
-
-Bengkok dimakan api
-
-apinya cang curupan
-
-Nang mana batis kutung
-
-Dikitipi dawang
-
-Nang mana batis kutung
-
-Dikitipi dawang
-
-Ampar ampar pisang
-
-Pisangku balum masak
-
-Masak bigi dihurung bari-bari
-
-Masak bigi dihurung bari-bari
-
-Manggalepak manggalepok
-
-Patah kayu bengkok
-
-Bengkok dimakan api
-
-apinya cang curupan
-
-Bengkok dimakan api
-
-apinya cang curupan
-
-Nang mana batis kutung
-
-Dikitipi dawang
-
-Nang mana batis kutung
-
-Dikitipi dawang
+Reff:
+Manuk dadali manuk panggagahna
+Perlambang sakti Indonesia Jaya
+Manuk dadali pangkakoncarana
+Resep ngahiji rukun sakabéhna
+Hirup sauyunan tara pahiri-hiri
+Silih pikanyaah teu inggis béla pati
+Manuk dadali ngandung siloka sinatria
+Keur sakumna Bangsa di Nagara Indonesia
 ''',
   ),
   Province(

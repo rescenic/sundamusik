@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'SundaMusik',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 86, 25, 192)),
+            seedColor: const Color.fromARGB(186, 221, 151, 21)),
         useMaterial3: true,
       ),
       home: const SplashScreen(),

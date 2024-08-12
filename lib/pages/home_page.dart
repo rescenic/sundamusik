@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
         elevation: 2,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: const Color.fromARGB(186, 221, 151, 21),
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                 );
               });
         },
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: const Color.fromARGB(186, 221, 151, 21),
         child: const Icon(
           Icons.add,
           color: Colors.white,

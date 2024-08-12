@@ -1,11 +1,12 @@
-# sundamusik
+# SundaMusik
 
-**Aplikasi Kumpulan Lagu Daerah Sunda.**
+**Aplikasi Kumpulan Lagu Daerah Sunda.  
+_Final Task - Mastering Flutter I_.**
 
-## Mentor
+## _Mentor_
 
 ### Saiful Bahri
 
-## Developer
+## _Developer_
 
 ### Muhammad Ridwan Hakim

@@ -23,15 +23,15 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
+      backgroundColor: const Color.fromARGB(186, 221, 151, 21),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
               'assets/images/sundamusik.png',
-              width: 150,
-              height: 150,
+              width: 200,
+              height: 200,
             ),
             const SizedBox(height: 24),
             const Text(
